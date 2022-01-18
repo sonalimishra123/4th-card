@@ -1,0 +1,67 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+    background: hsl(217, 54%, 11%);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border: 1px solid hsl(216, 50%, 16%);
+    background: hsl(216, 50%, 16%);
+    height:400px;
+    width: 220px;
+    
+}
+img{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.container h4{
+    color: hsl(0, 0%, 100%);
+}
+.container h5{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+.footer img{
+    height: 12px;
+    width: 12px;   
+}
+.footer p{
+    font-size: 10px;
+    display: inline-block;
+    color: white;
+    word-spacing: 3px;
+}
+.Noside::after{
+    content:"";
+    width:180px;
+    height:1px;
+    margin-left: 18px;
+    position:absolute;
+    background:rgb(71, 71, 71);
+}
+.last-img img{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.last-img .creation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
